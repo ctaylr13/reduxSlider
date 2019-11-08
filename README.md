@@ -1,5 +1,5 @@
-# oytorpprotyo
- React/Redux Image Carousel 
+
+# React/Redux Image Carousel 
  -- To Run Instructions
     -- Open Two Terminals 
     -- Terminal One
