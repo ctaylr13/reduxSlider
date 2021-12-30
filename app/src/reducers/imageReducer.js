@@ -5,9 +5,9 @@ import {
 
 // install lodash, allows you to map over objects easier
 export default (state = {}, action) => {
-    switch(action.type) {
+    switch (action.type) {
         case GET_ALL_SLIDES:
-            return {...state, ..._.mapKeys(action.payload, 'id')};
+            return { ...state, ..._.mapKeys(action.payload, 'id') };
         default:
             return state;
     }
